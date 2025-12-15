@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group = 'com.example'
+group = 'com.twb'
 version = '1.0-SNAPSHOT'
 
 repositories {
@@ -10,16 +10,13 @@ repositories {
 }
 
 dependencies {
-    implementation 'io.netty:netty-all:4.1.110.Final'
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+    implementation 'io.netty:netty-all:4.1.114.Final'
+//    implementation 'io.netty.incubator:netty-incubator-transport-native-io_uring:0.0.26.Final'
+
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
 }
 
 test {
     useJUnitPlatform()
-}
-
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(21)
-    }
 }
