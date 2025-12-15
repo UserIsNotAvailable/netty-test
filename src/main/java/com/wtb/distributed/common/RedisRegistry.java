@@ -1,6 +1,6 @@
 package com.wtb.distributed.common;
 
-import com.twb.distributed.common.enmu.NodeType;
+import com.wtb.distributed.common.enmu.NodeType;
 import io.lettuce.core.RedisClient;
 import io.lettuce.core.RedisURI;
 import io.lettuce.core.api.StatefulRedisConnection;

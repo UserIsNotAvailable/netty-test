@@ -1,6 +1,7 @@
 package com.wtb.distributed.common;
 
-import com.twb.distributed.common.enmu.NodeType;
+
+import com.wtb.distributed.common.enmu.NodeType;
 
 import java.io.FileInputStream;
 import java.io.InputStream;

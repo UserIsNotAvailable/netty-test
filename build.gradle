@@ -10,8 +10,11 @@ repositories {
 }
 
 dependencies {
+    implementation 'io.lettuce:lettuce-core:6.3.1.RELEASE'
+
     implementation 'io.netty:netty-all:4.1.114.Final'
 //    implementation 'io.netty.incubator:netty-incubator-transport-native-io_uring:0.0.26.Final'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.2'
 
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'

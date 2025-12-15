@@ -1,7 +1,8 @@
 package com.wtb.distributed.common;
 
-import com.twb.distributed.common.enmu.MsgType;
-import com.twb.distributed.common.enmu.NodeType;
+
+import com.wtb.distributed.common.enmu.MsgType;
+import com.wtb.distributed.common.enmu.NodeType;
 
 import java.io.Serializable;
 

@@ -1,7 +1,8 @@
 package com.wtb.distributed.lobby;
 
-import com.twb.distributed.common.ClusterClient;
-import com.twb.distributed.common.ClusterMsg;
+
+import com.wtb.distributed.common.ClusterClient;
+import com.wtb.distributed.common.ClusterMsg;
 
 /**
  * 集群代理组件

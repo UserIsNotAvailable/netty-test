@@ -1,6 +1,7 @@
 package com.wtb.distributed.game;
 
-import com.twb.distributed.common.ClusterClient;
+
+import com.wtb.distributed.common.ClusterClient;
 
 public class GameServer {
     public static void main(String[] args) {

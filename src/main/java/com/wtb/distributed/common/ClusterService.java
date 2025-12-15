@@ -1,6 +1,6 @@
 package com.wtb.distributed.common;
 
-import com.twb.distributed.common.enmu.MsgType;
+import com.wtb.distributed.common.enmu.MsgType;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
